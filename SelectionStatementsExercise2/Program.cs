@@ -7,7 +7,7 @@ namespace SelectionStatementsExercise2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("To get started... What is your favorite subject?");
+            Console.WriteLine("To get started... What is your major?");
 
             var studentAnswer = Console.ReadLine();
 
@@ -17,7 +17,7 @@ namespace SelectionStatementsExercise2
                     Console.WriteLine($"Amazing! That's a great career field.");
                     break;
                 case "Software Engineer":
-                    Console.WriteLine($"You're on your to do great things!");
+                    Console.WriteLine($"You're on your way to do great things!");
                     break;
                 case "Painter":
                     Console.WriteLine($"What a way to tap into your creativity");
