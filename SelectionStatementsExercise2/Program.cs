@@ -13,19 +13,19 @@ namespace SelectionStatementsExercise2
 
             switch (studentAnswer.ToLower()) 
             {
-                case "Electrical Engineer":
+                case "electrical engineer":
                     Console.WriteLine($"Amazing! That's a great career field.");
                     break;
-                case "Software Engineer":
+                case "software engineer":
                     Console.WriteLine($"You're on your way to do great things!");
                     break;
-                case "Painter":
+                case "painter":
                     Console.WriteLine($"What a way to tap into your creativity");
                     break;
-                case "Trainer":
+                case "trainer":
                     Console.WriteLine($"You will be the reason most of the world will stay fit");
                     break;
-                case "Pilot":
+                case "pilot":
                     Console.WriteLine($"One of the best ways to travel the world. You must be a genius?!");
                     break;
                 default:
